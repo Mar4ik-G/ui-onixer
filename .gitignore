@@ -7,18 +7,42 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Runtime data
 *.local
 
-# Editor directories and files
-.vscode/*
+# Dependency directories
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Output from `tsc`
+*.js
+*.js.map
+
+# IDEs and editors
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Sass map files
+*.css.map
+
+# Env files
+.env
+.env.local
+.env.*.local
