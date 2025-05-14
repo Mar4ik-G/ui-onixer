@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Unbounded", sans-serif;
+}
+
 body {
   margin: 0;
   font-family: "Unbounded", sans-serif;

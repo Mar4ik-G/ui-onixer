@@ -1,5 +1,6 @@
 import './App.scss'
 import Header from "./components/Header";
+import HeroSection from "./components/ HeroSection";
 
 function App() {
     return (
@@ -12,7 +13,9 @@ function App() {
                 </header>
 
                 <main className="page__content">
-                    <div className="page__container">Main content</div>
+                    <div className="page__container">
+                        <HeroSection/>
+                    </div>
                 </main>
 
                 <footer className="page__footer">
