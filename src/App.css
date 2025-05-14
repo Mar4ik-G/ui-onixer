@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Unbounded", sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.page__container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.page__header {
+  padding: 35px 0;
+}
+.page__content {
+  flex: 1 1 auto;
+}
+.page__footer {
+  padding: 1rem 0;
+}
+
+/*# sourceMappingURL=App.css.map */

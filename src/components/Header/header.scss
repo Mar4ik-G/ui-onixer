@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__logo img {
+    height: 54px;
+  }
+
+  &__links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__lang span{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__login{
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 17.5px;
+    border: none;
+    padding: 7px 22px;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #3A5DFF;
+    font-family: 'Unbounded', sans-serif;
+
+  }
+}

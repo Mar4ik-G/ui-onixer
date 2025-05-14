@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo img {
+  height: 54px;
+}
+.header__links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__link {
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 14px;
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__lang span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.header__login {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 17.5px;
+  border: none;
+  padding: 7px 22px;
+  gap: 10px;
+  color: #FFFFFF;
+  background-color: #3A5DFF;
+  font-family: "Unbounded", sans-serif;
+}
+
+/*# sourceMappingURL=header.css.map */

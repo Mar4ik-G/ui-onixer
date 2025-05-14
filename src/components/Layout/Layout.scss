@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+  .header {
+    background: #eee;
+    padding: 1rem;
+  }
+
+  .main {
+    flex: 1;
+    padding: 2rem;
+    background: #fafafa;
+  }
+
+  .footer {
+    background: #eee;
+    padding: 1rem;
+  }
+}

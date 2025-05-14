@@ -1,4 +1,5 @@
 import type {ReactNode} from "react";
+import './Layout.scss'
 
 type LayoutProps = {
     children: ReactNode
@@ -7,11 +8,7 @@ type LayoutProps = {
 function Layout({ children }: LayoutProps) {
     return (
         <div className="layout">
-            <div className="main-wrapper">
-                <main className="main-content">
                     {children}
-                </main>
-            </div>
         </div>
     )
 }

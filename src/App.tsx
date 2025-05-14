@@ -1,12 +1,25 @@
 import './App.scss'
-import Layout from './components/Layout'
+import Header from "./components/Header";
 
 function App() {
     return (
-        <Layout>
-            <h1>Welcome to My Website</h1>
-            <p>This is the starting layout for your React site.</p>
-        </Layout>
+        <div className="wrapper">
+            <div className="page">
+                <header className="page__header">
+                    <div className="page__container">
+                        <Header />
+                    </div>
+                </header>
+
+                <main className="page__content">
+                    <div className="page__container">Main content</div>
+                </main>
+
+                <footer className="page__footer">
+                    <div className="page__container">FOOTER</div>
+                </footer>
+            </div>
+        </div>
     )
 }
 
