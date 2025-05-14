@@ -1,12 +1,11 @@
 .hero {
   padding: 60px 0;
-  padding-bottom: 350px;
-
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    position: relative;
 
     @media (max-width: 768px) {
       flex-direction: column;
@@ -20,9 +19,25 @@
   }
 
   &__title {
-    font-weight: 466;
+    font-weight: 400;
     font-size: 60px;
+    align-items: center;
+    position: relative;
+    margin: 0;
+  }
 
+  &__icon {
+    display: inline-block;
+    width: 64px;
+    height: auto;
+    vertical-align: middle;
+    transform: translateY(-4px);
+    margin-right: 14px;
+  }
+
+  &__icon:nth-child(2) {
+    margin-left: 14px;
+    width: 72px;
   }
 
   &__button {
@@ -37,20 +52,24 @@
     font-weight: 400;
     font-size: 23px;
     line-height: 150%;
+    position: absolute;
+    margin-top: 20px;
+    z-index: 1;
   }
 
   &__image{
-    position: absolute;
+    //position: relative;
     border-radius: 50px;
     width: 100%;
-    left: 0;
-    top: 280px;
-    z-index: -1;
+    margin-top: -50px;
+    //left: 0;
+    //top: 280px;
+    //z-index: -1;
   }
 
   &__label {
     position: absolute;
-    bottom: -190px;
+    bottom: 130px;
     right: -30px;
     background: white;
     padding: 29px 32px;
