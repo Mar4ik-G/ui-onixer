@@ -19,7 +19,8 @@ const Index = () => {
 
                 <div className="header__actions">
                     <div className="header__lang">
-                        <span>УКР</span><span> РУС</span>
+                        <span className="header__lang-item header__lang-item--active">УКР</span>
+                        <span className="header__lang-item">РУС</span>
                     </div>
                     <button className="header__login">Увійти</button>
                 </div>
