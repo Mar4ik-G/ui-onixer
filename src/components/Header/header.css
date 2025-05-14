@@ -17,15 +17,26 @@
   cursor: pointer;
   font-weight: 300;
   font-size: 14px;
+  color: #1B1B1B;
 }
 .header__actions {
   display: flex;
   align-items: center;
   gap: 32px;
 }
-.header__lang span {
+.header .header__lang {
+  display: flex;
+  gap: 0.5rem;
+}
+.header .header__lang-item {
   font-size: 14px;
+  font-weight: 300;
+  color: #404040;
+  cursor: pointer;
+}
+.header .header__lang-item--active {
   font-weight: 400;
+  color: #1B1B1B;
 }
 .header__login {
   font-size: 14px;
