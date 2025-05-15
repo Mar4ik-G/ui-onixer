@@ -1,6 +1,7 @@
 import './App.scss'
 import Header from "./components/Header";
 import HeroSection from "./components/ HeroSection";
+import WordPressInfo from "./components/WordPressInfo";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <main className="page__content">
                     <div className="page__container">
                         <HeroSection/>
+                        <WordPressInfo/>
                     </div>
                 </main>
 
