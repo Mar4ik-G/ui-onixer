@@ -1,0 +1,50 @@
+.facts {
+  font-family: 'Unbounded', sans-serif;
+
+  &__title {
+    font-size: 50px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+  }
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  &__subtitle {
+    margin-bottom: 16px;
+    margin-top: 0;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  &__brands {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  &__brand {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 #4242493D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    height: 140px;
+
+    img {
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+}
