@@ -1,0 +1,46 @@
+.facts {
+  font-family: "Unbounded", sans-serif;
+}
+.facts__title {
+  font-size: 50px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 48px;
+}
+.facts__icon {
+  width: 64px;
+  height: 64px;
+}
+.facts__subtitle {
+  margin-bottom: 16px;
+  margin-top: 0;
+  color: #1b1b1b;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+}
+.facts__brands {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.facts__brand {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 rgba(66, 66, 73, 0.2392156863);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 140px;
+}
+.facts__brand img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=facts.css.map */
