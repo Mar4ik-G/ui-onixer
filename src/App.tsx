@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/ HeroSection";
 import WordPressInfo from "./components/WordPressInfo";
 import Facts from "./components/Facts";
+import Salary from "./components/Salary";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                         <HeroSection/>
                         <WordPressInfo/>
                         <Facts/>
+                        <Salary/>
                     </div>
                 </main>
 
