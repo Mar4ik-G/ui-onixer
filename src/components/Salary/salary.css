@@ -1,0 +1,109 @@
+.salary {
+  padding: 80px 0;
+}
+.salary__title {
+  font-family: "Unbounded", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 48px;
+}
+.salary__subtitle {
+  font-size: 16px;
+  color: #333;
+  font-weight: 300;
+  line-height: 150%;
+}
+.salary__filters {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+.salary__filters > * {
+  flex: 1;
+  min-width: 100px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6D6D6D;
+}
+.salary__select {
+  padding: 12px 16px;
+  border-radius: 36px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 5px 0 rgba(66, 66, 73, 0.2392156863);
+  font-size: 16px;
+  appearance: none;
+  background-color: #fff;
+  max-width: 216px;
+  background-image: url("../../assets/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 12px;
+}
+.salary__button {
+  padding: 12px 32px;
+  font-size: 16px;
+  border-radius: 24px;
+  background: #3A5DFF;
+  color: white;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  max-width: 190px;
+}
+.salary__chart-wrapper {
+  background: #fdfdfd;
+  border-radius: 24px;
+  box-shadow: 0px 0px 5px 0px rgba(66, 66, 73, 0.2392156863);
+}
+.salary__range {
+  text-align: right;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  padding: 58px 58px 0 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.salary .salary__chart {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  gap: 12px;
+  padding: 40px 58px;
+  overflow-x: auto;
+  height: 400px;
+}
+.salary .bar {
+  width: 84px;
+  background-color: #bbaeff;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #1B1B1B;
+  padding-top: 4px;
+  position: relative;
+}
+.salary .bar::after {
+  content: attr(data-label);
+  bottom: -28px;
+  right: 0;
+  position: absolute;
+  color: #1B1B1B;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+}
+.salary .bar--active {
+  background-color: #7a65f2;
+}
+
+/*# sourceMappingURL=salary.css.map */

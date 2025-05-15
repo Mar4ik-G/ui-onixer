@@ -1,4 +1,4 @@
-import verctorPurple from '../../assets/facts-vector-purple.svg'
+import vectorPurple from '../../assets/facts-vector-purple.svg'
 import coca from '../../assets/coca.svg'
 import reuter from '../../assets/reuter.svg'
 import journal from '../../assets/journal.svg'
@@ -12,7 +12,7 @@ const Index = () => {
             <section className="facts">
                 <div className="facts__container page__container">
                     <h2 className="facts__title">
-                        Цікавий факт <img src={verctorPurple} alt="icon" className="facts__icon" />
+                        Цікавий факт <img src={vectorPurple} alt="icon" className="facts__icon" />
                     </h2>
                     <p className="facts__subtitle">30% сайтів по всьому світу розроблено на WordPress</p>
 
