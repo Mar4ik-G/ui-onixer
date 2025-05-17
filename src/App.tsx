@@ -6,6 +6,7 @@ import Facts from "./components/Facts";
 import Salary from "./components/Salary";
 import AboutCourse from "./components/AboutCourse";
 import CourseDirections from "./components/CourseDirections";
+import CourseDetails from "./components/CourseDetails";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                         <Salary/>
                         <AboutCourse/>
                         <CourseDirections/>
+                        <CourseDetails/>
                     </div>
                 </main>
 
