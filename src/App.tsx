@@ -5,6 +5,7 @@ import WordPressInfo from "./components/WordPressInfo";
 import Facts from "./components/Facts";
 import Salary from "./components/Salary";
 import AboutCourse from "./components/AboutCourse";
+import CourseDirections from "./components/CourseDirections";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                         <Facts/>
                         <Salary/>
                         <AboutCourse/>
+                        <CourseDirections/>
                     </div>
                 </main>
 
