@@ -1,0 +1,229 @@
+.about-course {
+  font-family: "Unbounded", sans-serif;
+}
+.about-course__title {
+  font-size: 50px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 52px;
+}
+.about-course__icon {
+  width: 64px;
+  height: 64px;
+}
+.about-course__description {
+  margin: 0 0 8px;
+  line-height: 150%;
+  color: #1b1b1b;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 640px;
+}
+.about-course__benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.about-course__benefits li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #1B1B1B;
+  line-height: 1.4;
+}
+.about-course__benefits .benefit__icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.about-course__brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.about-course__brand {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 rgba(66, 66, 73, 0.2392156863);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 140px;
+}
+.about-course__brand img {
+  max-width: 100%;
+  max-height: 60%;
+  object-fit: contain;
+}
+.about-course__grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 16px;
+  align-items: stretch;
+  margin-top: 16px;
+}
+.about-course__card {
+  border-radius: 40px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-height: 233px;
+}
+.about-course__card--small {
+  grid-column: span 3;
+}
+.about-course__card--wide {
+  grid-column: span 6;
+}
+.about-course__card--stat {
+  color: #ffc9a3;
+  text-align: center;
+  position: relative;
+  border-radius: 40px;
+}
+.about-course__card--stat::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  z-index: -1;
+  background: #7a65f2;
+  border-radius: 40px;
+}
+.about-course__card--stat::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  z-index: -1;
+  background: #7a65f2;
+  border-radius: 40px;
+}
+.about-course__card--stat .about-course__value {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+}
+.about-course__card--stat .about-course__label {
+  color: #fff;
+  text-align: start;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+.about-course__card--stat img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  z-index: 5;
+}
+.about-course__card--stat .about-course__corner-wrapper {
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  width: 80px;
+  height: 80px;
+  z-index: -1;
+  background: #7a65f2;
+}
+.about-course__card--stat .about-course__corner-wrapper .about-course__corner {
+  position: absolute;
+  bottom: -56.7%;
+  right: -49%;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-top-left-radius: 40px;
+}
+.about-course__card--image {
+  padding: 0;
+  grid-column: 2fr;
+  position: relative;
+}
+.about-course__card--image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+}
+.about-course__card--image .about-course__tag {
+  position: absolute;
+  bottom: 16px;
+  left: -80px;
+  background: #FFFFFF;
+  padding: 9.5px 32px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px 0px rgba(66, 66, 73, 0.2392156863);
+  z-index: 1;
+  transform: rotate(-3deg);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+.about-course__card--image .about-course__cta {
+  position: absolute;
+  bottom: -22px;
+  left: -82px;
+  padding: 22px 32px;
+  background: #3a5dff;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 220px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+.about-course__card--list {
+  background: #ede9fe;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 32px;
+}
+.about-course__card--list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.about-course__card--list ul li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+.about-course__card--list .about-course__icon {
+  width: 42px;
+  height: 42px;
+  align-self: flex-end;
+  margin-top: auto;
+  position: absolute;
+}
+
+/*# sourceMappingURL=course.css.map */
