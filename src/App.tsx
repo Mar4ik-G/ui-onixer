@@ -7,6 +7,7 @@ import Salary from "./components/Salary";
 import AboutCourse from "./components/AboutCourse";
 import CourseDirections from "./components/CourseDirections";
 import CourseDetails from "./components/CourseDetails";
+import CourseFitSection from "./components/CourseFitSection";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                         <AboutCourse/>
                         <CourseDirections/>
                         <CourseDetails/>
+                        <CourseFitSection/>
                     </div>
                 </main>
 
