@@ -7,6 +7,7 @@ import Salary from "./components/Salary";
 import AboutCourse from "./components/AboutCourse";
 import CourseDirections from "./components/CourseDirections";
 import CourseDetails from "./components/CourseDetails";
+import OurMentors from "./components/OurMentors";
 import CourseFitSection from "./components/CourseFitSection";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                         <CourseDirections/>
                         <CourseDetails/>
                         <CourseFitSection/>
+                        <OurMentors/>
                     </div>
                 </main>
 
