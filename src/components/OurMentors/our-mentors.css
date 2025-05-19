@@ -1,0 +1,93 @@
+.mentors {
+  padding: 64px 0;
+}
+.mentors__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+.mentors__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.mentors__icon {
+  width: 48px;
+  height: 48px;
+}
+.mentors__list {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 16px;
+}
+.mentors__card {
+  background: white;
+  border-radius: 24px;
+  padding: 0 16px 24px;
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  text-align: start;
+}
+.mentors__image-wrapper {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.mentors__image-wrapper img.mentors__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.mentors__image-wrapper .mentors__badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+}
+.mentors__name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.mentors__position {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+.mentors__desc {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #1b1b1b;
+}
+.mentors__social {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}
+.mentors__arrows {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+  gap: 8px;
+}
+.mentors__arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #3a5dff;
+  background: transparent;
+  color: #3a5dff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.mentors__arrow--prev {
+  transform: scaleX(-1);
+}
+
+/*# sourceMappingURL=our-mentors.css.map */
