@@ -53,6 +53,11 @@ const Index = () => {
                         <img src={purpleStarIcon} alt="" className="mentors__icon" />
                     </div>
 
+                    <div className="mentors__arrows">
+                        <button className="mentors__arrow mentors__arrow--prev">←</button>
+                        <button className="mentors__arrow mentors__arrow--next">→</button>
+                    </div>
+
                     <div className="mentors__list">
                         {mentors.map(({ name, position, text, img, icon }, i) => (
                             <div key={i} className="mentors__card">
@@ -61,9 +66,9 @@ const Index = () => {
                                     <img src={orangeStarIcon} alt="" className="mentors__badge" />
                                 </div>
                                 <div className="mentors__info">
-                                    <div className="mentors__name">
-                                        <div>
-                                        {name} 
+                                    <div className="mentors__card-header">
+                                        <div className='card-header__title'>
+                                        <p className="mentors__name">{name}</p>
                                         <p className="mentors__position">{position}</p>
                                         </div>
                                     <img src={icon} alt="" className="mentors__social" />
@@ -74,7 +79,6 @@ const Index = () => {
                         ))}
                     </div>
 
-                    <button className="mentors__cta">Стати ментором</button>
                 </div>
             </section>
 
