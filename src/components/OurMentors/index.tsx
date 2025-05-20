@@ -61,19 +61,20 @@ const Index = () => {
                                     <img src={orangeStarIcon} alt="" className="mentors__badge" />
                                 </div>
                                 <div className="mentors__info">
-                                    <div className="mentors__name">{name}</div>
-                                    <div className="mentors__position">{position}</div>
-                                    <p className="mentors__desc">{text}</p>
+                                    <div className="mentors__name">
+                                        <div>
+                                        {name} 
+                                        <p className="mentors__position">{position}</p>
+                                        </div>
                                     <img src={icon} alt="" className="mentors__social" />
+                                    </div>
+                                    <p className="mentors__desc">{text}</p>
                                 </div>
                             </div>
                         ))}
                     </div>
 
-                    <div className="mentors__arrows">
-                        <button className="mentors__arrow mentors__arrow--prev">←</button>
-                        <button className="mentors__arrow mentors__arrow--next">→</button>
-                    </div>
+                    <button className="mentors__cta">Стати ментором</button>
                 </div>
             </section>
 
