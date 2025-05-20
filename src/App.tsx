@@ -10,6 +10,7 @@ import CourseDetails from "./components/CourseDetails";
 import OurMentors from "./components/OurMentors";
 import CourseFitSection from "./components/CourseFitSection";
 import FAQ from './components/FAQ';
+import Feedback from './components/Feedback';
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                         <CourseFitSection/>
                         <OurMentors/>
                         <FAQ/>
+                        <Feedback/>
                     </div>
                 </main>
 
