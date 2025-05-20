@@ -1,0 +1,135 @@
+.feedback {
+  padding: 80px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 32px;
+    margin-bottom: 16px;
+    padding: 5px 5px;
+  }
+
+  &__card {
+    background: #fff;
+    border-radius: 24px;
+    padding: 16px;
+    max-width: 256px;
+    box-shadow: 0px 0px 5px 0px #4242493d;
+    position: relative;
+    &-top {
+      .feedback__name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 16px;
+        gap: 10px;
+        position: relative;
+      }
+    }
+
+    .feedback__avatar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 600;
+      background: #e3ddff;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      justify-content: center;
+      color: #846ded;
+
+      img {
+        object-fit: fill;
+      }
+    }
+
+    .feedback__text {
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 150%;
+    }
+
+    &__icon {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    justify-content: flex-end;
+
+    .arrow-prev {
+      transform: rotate(90deg);
+    }
+
+    .arrow-next {
+      transform: rotate(-90deg);
+    }
+
+    button {
+      border: 1px solid #3a5dff;
+      background: transparent;
+      border-radius: 100%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+  &__bottom {
+    position: relative;
+    &-label {
+      position: absolute;
+      top: 20px;
+      right: 95px;
+      padding: 9.5px 32px;
+      background: #fff;
+      box-shadow: 0px 0px 5px 0px #4242493d;
+      border-radius: 25px;
+      transform: rotate(-3deg);
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+      }
+    }
+  }
+}
