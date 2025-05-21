@@ -11,6 +11,8 @@ import OurMentors from "./components/OurMentors";
 import CourseFitSection from "./components/CourseFitSection";
 import FAQ from './components/FAQ';
 import Feedback from './components/Feedback';
+import JoinForm from './components/JoinForm';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -35,11 +37,14 @@ function App() {
                         <OurMentors/>
                         <FAQ/>
                         <Feedback/>
+                        <JoinForm/>
                     </div>
                 </main>
 
                 <footer className="page__footer">
-                    <div className="page__container">FOOTER</div>
+                    <div className="page__container">
+                    <Footer/>
+                    </div>
                 </footer>
             </div>
         </div>

@@ -1,0 +1,181 @@
+.join-form {
+  padding: 64px 0;
+
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    z-index: 4; 
+
+    img {
+      width: 48px;
+      height: 48px;
+      z-index: 5;
+    }
+  }
+
+  &__info {
+    margin-top: 100px;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    .join-form__stars {
+      display: flex;;
+      justify-content: space-between;
+      gap: 32px;
+      width: 100%;
+      .star {
+        font-size: 62px;
+      }
+    
+      .orange {
+        color: #fcb195; // або свій hex
+      }
+    
+      .purple {
+        color: #b3a6f6; // або свій hex
+      }
+    }
+    
+  }
+
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    gap: 12px;
+    margin-bottom: 32px;
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    
+  }
+
+  &__card {
+    flex: 1;
+    max-width: 544px;
+    padding: 32px;
+    padding-top: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &::before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 80%;
+      background: #e8e1ff;   
+      border-radius: 50px;
+      z-index: -1;
+    }
+    &::after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 80%;
+      height: 100%;
+      background: #e8e1ff;   
+      border-radius: 50px;
+      z-index: -1;
+    }
+
+    .card-top-left-corner{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20%;
+      height: 20%;
+      background: #e8e1ff;   
+      z-index: 2;
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;   
+        border-bottom-right-radius: 50px;
+        z-index: 3;
+      }
+    }
+  }
+
+  &__card-icon {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    width: 52px;
+    height: 52px;
+  }
+
+  &__label {
+    font-size: 16px;
+    font-weight: 300;
+    color: #1B1B1B;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    padding: 16px 20px;
+    font-size: 16px;
+    border-radius: 40px;
+    font-weight: 300;
+    border: none;
+    background: #fff;
+    outline: none;
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    background: #3a5dff;
+    color: #fff;
+    padding: 22px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 40px;
+    max-width: 217px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-bottom: 8px;
+
+    &:hover {
+      background: #2f4fe0;
+    }
+  }
+
+  &__privacy {
+    font-size: 14px;
+    color: #7C7C7C;
+    line-height: 1.4;
+    margin: 0;
+  }
+}
