@@ -11,6 +11,7 @@ import OurMentors from "./components/OurMentors";
 import CourseFitSection from "./components/CourseFitSection";
 import FAQ from './components/FAQ';
 import Feedback from './components/Feedback';
+import JoinForm from './components/JoinForm';
 
 function App() {
     return (
@@ -35,6 +36,7 @@ function App() {
                         <OurMentors/>
                         <FAQ/>
                         <Feedback/>
+                        <JoinForm/>
                     </div>
                 </main>
 
