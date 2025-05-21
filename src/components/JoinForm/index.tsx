@@ -9,17 +9,26 @@ const Index = () => {
     <>
      <section className="join-form">
       <div className="join-form__container page__container">
-        <div className="join-form__info">
-          <h2 className="join-form__title">
-            Хочеш навчатись?
-            <img src={purpleIcon} alt="" className="join-form__icon" />
-          </h2>
-          <p className="join-form__text">
-            Якщо хочеш навчитись, заповни анкету, і ми з тобою зв'яжемось!
-          </p>
-        </div>
+      <h2 className="join-form__title">
+      Хочеш навчатись?
+      <img src={purpleIcon} alt="" className="join-form__icon" />
+    </h2>
+
+    <div className="join-form__info">
+      <p className="join-form__text">
+        Якщо хочеш навчитись, заповни анкету, і ми з тобою зв'яжемось!
+      </p>
+
+      <div className="join-form__stars">
+  {'* * * * * * * * '.split(' ').map((star, i) => (
+    <span key={i} className={`star ${i % 2 === 0 ? 'orange' : 'purple'}`}>*</span>
+  ))}
+</div>
+    </div>
 
         <div className="join-form__card">
+          <div className='card-top-left-corner'></div>
+
           <img src={orangeIcon} alt="" className="join-form__card-icon" />
 
           <label className="join-form__label">Прізвище / Ім’я</label>
