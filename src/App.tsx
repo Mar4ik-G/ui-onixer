@@ -27,23 +27,23 @@ function App() {
                 <main className="page__content">
                     <div className="page__container">
                         <HeroSection/>
-                        <WordPressInfo/>
-                        <Facts/>
-                        <Salary/>
-                        <AboutCourse/>
-                        <CourseDirections/>
-                        <CourseDetails/>
-                        <CourseFitSection/>
-                        <OurMentors/>
-                        <FAQ/>
-                        <Feedback/>
-                        <JoinForm/>
+                        {/* <WordPressInfo/> */}
+                        {/* <Facts/> */}
+                        {/* <Salary/> */}
+                        {/* <AboutCourse/> */}
+                        {/* <CourseDirections/> */}
+                        {/* <CourseDetails/> */}
+                        {/* <CourseFitSection/> */}
+                        {/* <OurMentors/> */}
+                        {/* <FAQ/> */}
+                        {/* <Feedback/> */}
+                        {/* <JoinForm/> */}
                     </div>
                 </main>
 
                 <footer className="page__footer">
                     <div className="page__container">
-                    <Footer/>
+                    {/* <Footer/> */}
                     </div>
                 </footer>
             </div>
