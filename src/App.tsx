@@ -28,8 +28,8 @@ function App() {
                     <div className="page__container">
                         <HeroSection/>
                         <WordPressInfo/>
-                        {/* <Facts/> */}
-                        {/* <Salary/> */}
+                        <Facts/>
+                        <Salary/>
                         {/* <AboutCourse/> */}
                         {/* <CourseDirections/> */}
                         {/* <CourseDetails/> */}

@@ -121,3 +121,62 @@
   }
 
 }
+
+@media (max-width: 1150px) {
+  .salary {
+    padding: 64px 35px 0px 35px;
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    img{
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__filters {
+    display: flex;
+    flex-direction: column
+  }
+
+  &__select {
+    max-width: none;
+  }
+
+  &__button {
+    padding: 20px 72px;
+    margin-top: 8px;
+    max-width: none;
+  }
+
+  &__range {
+    text-align: right;
+    font-size: 16px;
+    padding: 31px 31px 0 0;
+  }
+
+  .salary__chart {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    gap: 12px;
+    padding: 40px 50px;
+    height: 400px;
+    overflow-x: auto
+
+  }
+
+  .bar {
+    width: 84px;
+    background-color: #bbaeff;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #1B1B1B;
+    padding-top: 4px;
+    position: relative;
+  }
+}
+}

@@ -48,3 +48,27 @@
     }
   }
 }
+
+  @media (max-width: 1150px) {
+    .facts {
+      padding: 0 35px;
+    
+
+    &__title {
+      font-size: 24px;
+    }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+    &__brand {
+      min-width: 300px;
+      height: 200px;
+    }
+
+
+    
+  }
+  }

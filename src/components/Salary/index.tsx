@@ -17,6 +17,9 @@ const Index = () => {
         { label: '$10000', value: '2%' },
     ];
 
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    const visibleData = isMobile ? chartData.slice(0, 5) : chartData;
+
 
     return (
         <>
@@ -46,7 +49,7 @@ const Index = () => {
                     <div className="salary__chart-wrapper">
                         <div className="salary__chart">
                             <p className="salary__range">$1 025 - 2 500</p>
-                            {chartData.map((bar, i) => (
+                            {visibleData.map((bar, i) => (
                                 <div
                                     key={i}
                                     className={`bar${bar.active ? ' bar--active' : ''}`}
