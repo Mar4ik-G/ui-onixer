@@ -27,7 +27,7 @@ function App() {
                 <main className="page__content">
                     <div className="page__container">
                         <HeroSection/>
-                        {/* <WordPressInfo/> */}
+                        <WordPressInfo/>
                         {/* <Facts/> */}
                         {/* <Salary/> */}
                         {/* <AboutCourse/> */}

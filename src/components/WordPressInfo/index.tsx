@@ -10,6 +10,7 @@ const Index = () => {
                 <div className="wp-info__container page__container">
                     <div className="wp-info__content">
                         <h2 className="wp-info__title">Що таке WordPress? <img src={orangeVector} alt=""/></h2>
+                        <h2 className="wp-info__title-mobile">WordPress? <img src={orangeVector} alt=""/></h2>
                         <p className="wp-info__description">
                             WordPress — найпопулярніша в світі платформа для керування контентом на сайті. Вона надає
                             адміністративну панель для власника сайту, за допомогою якої він може гнучко налаштувати та
