@@ -2,11 +2,31 @@ import logo from '../../../public/logo.svg'
 import './header.scss'
 
 const Index = () => {
-    return (
+    return ( 
         <>
             <nav className="header">
-                <div className="header__logo">
-                    <img src={logo} alt="logo"/>
+            <div className="header__mobile-container">
+                <div className="header__mobile">
+                    <button className="header__burger">
+                        <span />
+                        <span />
+                        <span />
+                    </button>
+
+                    <div className="header__logo-mobile">
+                        <img src={logo} alt="logo" />
+                    </div>
+                </div>
+
+
+                <div className="header__profile">
+                <span>Курси</span>
+                <div className="header__profile-icon"></div>
+                </div>
+            </div>  
+
+            <div className="header__logo">
+                <img src={logo} alt="logo" />
                 </div>
 
                 <ul className="header__links">

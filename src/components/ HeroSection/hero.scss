@@ -47,8 +47,8 @@
     border-radius: 40px;
     color: white;
     cursor: pointer;
-    width: 486px;
-    height: 80px;
+    max-width: 486px;
+    max-height: 80px;
     font-weight: 400;
     font-size: 23px;
     line-height: 150%;
@@ -76,12 +76,11 @@
     border-radius: 25px;
     box-shadow: 0 4px 24px #4242493D;
     max-width: 420px;
-    height: 105px;
+    max-height: 105px;
     display: flex;
     justify-content: center;
     align-items: center;
     p{
-      width: 353px;
       font-weight: 300;
       font-size: 14px;
       line-height: 150%;
@@ -89,4 +88,124 @@
 
     transform: rotate(-3deg);
   }
+
+  &__left-mobile{
+    display: none;
+  }
+
+  @media (max-width: 1150px) {
+    &__container {
+      flex-direction: column;
+      padding: 0 35px;
+    }
+
+    &__left{
+      display: none;
+    }
+
+    &__left-mobile{
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .hero__icon {
+      width: 46px;
+      margin: 0;
+      margin-right: 16px;
+    }
+
+    .hero__icon:nth-child(2) {
+      width: 46px;
+      margin-left: 16px;
+    }
+
+    &__image{
+      border-radius: 0;
+      margin-top: 16px;
+      position: relative;
+    }
+
+      position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 32px; // або 0, якщо треба без
+  margin-top: 24px;
+
+
+  &__label {
+    position: absolute;
+    bottom: 70%;
+    left: 35%;
+    background: white;
+    padding: 8px 8px;
+    border-radius: 25px;
+    box-shadow: 0 4px 24px #4242493D;
+    max-width: 162px;
+    max-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-weight: 300;
+      font-size: 11px;
+      line-height: 150%;
+    }
+  }
+  
+
+    &__title {
+      font-weight: 400;
+      font-size: 44px;
+      max-width: 800px;
+      align-items: center;
+      position: relative;
+      line-height: 1.2;
+      margin: 0 auto;
+    
+    }
+
+    &__button {
+      padding: 20px 70px;
+      background-color: #3F63F6;
+      border: none;
+      border-radius: 40px;
+      color: white;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      position: relative;
+      margin-top: 20px;
+
+    }
+
+
+    .hero__image-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+      border-radius: 32px; // або 0, якщо треба без
+      margin-top: 24px;
+    }
+    
+    .hero__image {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 32px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+  &__label {
+    bottom: 65%;
+    left: 20%;
+  }
+}
+
 }
