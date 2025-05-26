@@ -160,9 +160,9 @@
     display: flex;
     align-items: flex-end;
     position: relative;
-    gap: 12px;
-    padding: 40px 50px;
-    height: 400px;
+    gap: 16px;
+    padding: 60px 20px;
+    height: 280px;
     overflow-x: auto
 
   }
@@ -177,6 +177,10 @@
     color: #1B1B1B;
     padding-top: 4px;
     position: relative;
+    &::after {
+      font-size: 12px;
+
+    }
   }
 }
 }
