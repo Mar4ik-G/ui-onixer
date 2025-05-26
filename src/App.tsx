@@ -30,7 +30,7 @@ function App() {
                         <WordPressInfo/>
                         <Facts/>
                         <Salary/>
-                        {/* <AboutCourse/> */}
+                        <AboutCourse/>
                         {/* <CourseDirections/> */}
                         {/* <CourseDetails/> */}
                         {/* <CourseFitSection/> */}
