@@ -47,6 +47,7 @@ const Index = () => {
                           <div className="about-course__value">63</div>
                           <div className="about-course__label">заняття</div>
                           <img src={orangeVector} alt="orange vector"/>
+                          
                           <div className="about-course__corner-wrapper">
                               <div className="about-course__corner">
                               </div>
