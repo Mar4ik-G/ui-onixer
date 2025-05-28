@@ -75,6 +75,8 @@ const Index = () => {
                           <img src={orangeRegtangle} alt="bottom img"/>
                           <button className="about-course__cta about-course__button">Консультація</button>
                       </div>
+
+                      <button className="about-course__cta about-course__button-mobile">Консультація</button>
                   </div>
               </div>
           </section>

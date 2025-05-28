@@ -280,6 +280,9 @@
       }
     }
   }
+  .about-course__button-mobile{
+    display: none;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -435,6 +438,22 @@
           height: 24px;
         }
       }
+    }
+    .about-course__button-mobile{
+      grid-column: span 12;
+      padding: 20px 10px;
+      background: #3a5dff;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      align-self: start;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 150%;
     }
   }
 }
