@@ -43,7 +43,7 @@ function App() {
 
                 <footer className="page__footer">
                     <div className="page__container">
-                    {/* <Footer/> */}
+                    <Footer/>
                     </div>
                 </footer>
             </div>

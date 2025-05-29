@@ -198,13 +198,38 @@
     &__card {
       max-width: 100%;
       padding: 24px;
-      padding-top: 120px;
+      padding-top: 80px;
+      &::before{
+        width: 100%;
+        height: 100%;
+      }
     }
+
+    .join-form__stars{
+      display: none;
+    }
+
     &__card-icon {
       width: 40px;
       height: 40px;
       top: 24px;
       right: 24px;
+    }
+    .card-top-left-corner{
+    display: none;
+      &::before{
+      display: none;
+      }
+    }
+
+    &__button {
+      padding: 20px 72px;
+      font-size: 18px;
+      max-width: none;
+    }
+
+    &__privacy {
+      font-size: 10px;
     }
   }
 }
