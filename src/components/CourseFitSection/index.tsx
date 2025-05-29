@@ -10,9 +10,10 @@ const Index = () => {
                 <div className="course-fit__container page__container">
                     <div className='course-fit__header'>
                         <h2 className="course-fit__title">
-                            Як відбувається навчання?
+                            <span>Як відбувається навчання?</span>
                             <br/>
                             Для кого підійде курс?
+                            <img src={orangeIcon} alt="" className="course-fit__icon-mobile"/>
                         </h2>
                         <img src={orangeIcon} alt="" className="course-fit__icon"/>
                     </div>

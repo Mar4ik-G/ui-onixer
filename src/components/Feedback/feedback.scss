@@ -133,3 +133,42 @@
     }
   }
 }
+
+
+@media (max-width: 1150px) {
+  .feedback {
+    padding: 32px 32px;
+    &__header{
+      padding: 24px 0;
+    }
+
+    &__title {
+      font-size: 24px;
+      display: inline;
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 32px;
+      margin-bottom: 16px;
+      padding: 5px 5px;
+    }
+
+    &__card {
+      min-width: 256px;
+    }
+    &__bottom {
+      display: none;
+    }
+  }
+}
