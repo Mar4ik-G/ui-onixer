@@ -20,7 +20,7 @@ const Index = () => {
       </p>
 
       <div className="join-form__stars">
-  {'* * * * * * * * '.split(' ').map((star, i) => (
+  {'* * * * * * * * '.split(' ').map((_, i) => (
     <span key={i} className={`star ${i % 2 === 0 ? 'orange' : 'purple'}`}>*</span>
   ))}
 </div>
