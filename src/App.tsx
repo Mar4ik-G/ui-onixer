@@ -32,12 +32,12 @@ function App() {
                         <Salary/>
                         <AboutCourse/>
                         <CourseDirections/>
-                        {/* <CourseDetails/> */}
-                        {/* <CourseFitSection/> */}
-                        {/* <OurMentors/> */}
-                        {/* <FAQ/> */}
-                        {/* <Feedback/> */}
-                        {/* <JoinForm/> */}
+                        <CourseDetails/>
+                        <CourseFitSection/>
+                        <OurMentors/>
+                        <FAQ/>
+                        <Feedback/>
+                        <JoinForm/>
                     </div>
                 </main>
 

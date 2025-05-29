@@ -87,3 +87,28 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 768px) {
+  .details {
+    padding: 0 32px;
+    &__title {
+      font-size: 24px;
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &__cards {
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+    }
+
+    &__card {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+}
