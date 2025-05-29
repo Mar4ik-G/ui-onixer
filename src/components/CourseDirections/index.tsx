@@ -8,7 +8,7 @@ const Index = () => {
             <section className="directions">
                 <div className="directions__container page__container">
                     <h2 className="directions__title">
-                        Чого ви навчитеся на курсі?
+                        <span>Чого ви навчитеся на курсі?</span>
                         <img src={orangeIcon} alt="" className="directions__icon" />
                     </h2>
                     <p className="directions__subtitle">
