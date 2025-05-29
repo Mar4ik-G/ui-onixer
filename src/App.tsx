@@ -31,7 +31,7 @@ function App() {
                         <Facts/>
                         <Salary/>
                         <AboutCourse/>
-                        {/* <CourseDirections/> */}
+                        <CourseDirections/>
                         {/* <CourseDetails/> */}
                         {/* <CourseFitSection/> */}
                         {/* <OurMentors/> */}
